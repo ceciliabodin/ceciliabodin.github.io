@@ -10,5 +10,21 @@ h1, p {
 
 h1 {
 	text-align: center;
-	font-size: 40pt;
+	font-size: 50pt;
+}
+
+p {
+	text-align: center;
+	font-size: 30pt;
+}
+
+.container {
+	display: block;
+	margin: 0 auto;
+	width: 500px;
+	height: 100%;
+}
+
+#peace {
+	font-size: 60pt;
 }
