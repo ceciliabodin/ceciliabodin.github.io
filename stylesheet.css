@@ -30,7 +30,7 @@ section{
 
 h1, p {
 	font-family: 'Karla', 'sans-serif';
-	font-weight: 200;
+/*	font-weight: 200;*/
 }
 
 h1 {
@@ -60,11 +60,11 @@ a:visited {
 
 a:hover {
 	color:#3CB371;
-	border-bottom: 6px solid #3CB371;
+	border-bottom: 3px solid #3CB371;
 }
 
 #name {
-	border-bottom: 6px solid grey;
+	border-bottom: 3px solid black;
 }
 
 
@@ -77,6 +77,7 @@ a:hover {
 
 #peace {
 	font-size: 60pt;
+	border-bottom: 3px solid black;
 }
 
 .links {
