@@ -1,0 +1,24 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+    <link href="stylesheet.css" rel="stylesheet">
+
+    <title>Cecilia Bodin</title>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  </head>
+
+  <body>
+  <div class="wrapper">
+  <!--   <header class="header">About</header> -->
+    <ul class="navigation">
+      <li><a href="http://ceciliabodin.com"><span style="color:#dd5a5f;">About</span></a></li>
+      <li><a href="#">Work</a></li>
+    </ul>
+</body>
+
+</html>
