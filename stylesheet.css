@@ -13,8 +13,8 @@ p, a {
   display: -webkit-flex;
   display: flex;  
   min-height: 100vh;
-  padding-left: 10%;
-   padding-right: 10%;
+  padding-left: 15%;
+   padding-right: 15%;
    flex-direction: column;
   
   -webkit-flex-flow: row wrap;
@@ -48,11 +48,10 @@ p, a {
 
 .main p {
   font-size: 18pt;
+/*    font-family: 'Inconsolata', 'sans-serif';*/
 }
 
-/*.main a {
-  text-decoration: underline;
-}*/
+
 
 .navigation {
   list-style: none;
