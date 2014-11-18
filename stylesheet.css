@@ -50,9 +50,9 @@ p, a {
   font-size: 18pt;
 }
 
-.main a {
+/*.main a {
   text-decoration: underline;
-}
+}*/
 
 .navigation {
   list-style: none;
@@ -70,6 +70,8 @@ p, a {
 
 }
 
+
+
 a {
   text-decoration: none;
    -o-transition:color .25s ease-out;
@@ -81,7 +83,7 @@ a {
 }
 
 a:visited {
-  color: black;
+  color: grey;
 }
 
 a:hover {
@@ -89,7 +91,7 @@ a:hover {
 }
 
 li a {
-  color: #819199;
+  color: grey;
   display: block;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -99,9 +101,14 @@ li a {
 }
 
 
-.navigation a:active {
+.main a {
+	color: #dd5a5f;
+}
+
+li a:active {
   color: #dd5a5f;
 }
+
 
 
 .social {
@@ -132,7 +139,7 @@ li a {
   background: hotpink;
 }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 500px) {
   .aside { flex: 2 auto; }
 }
 
