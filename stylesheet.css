@@ -22,6 +22,7 @@ p, a {
 
 }
 
+
 .wrapper > * {
   padding: 10px;
   flex: 1 100%;
@@ -123,7 +124,7 @@ li a:active {
   -webkit-flex-flow: row wrap;
   justify-content: center;
 
-  
+
 }
 
 .social li a {
@@ -131,6 +132,9 @@ li a:active {
   padding: 1em;
 }
 
+.social-item {
+	justify-content: center;
+}
 
 .aside-1 {
   background: gold;
@@ -149,10 +153,20 @@ li a:active {
   .main    { flex: 3 0px; }
   .navigation { order: 1;}
   .main    { order: 3; }
-  .footer  { order: 4; }
+  .wrapper-image {order: 4}
+  .footer  { order: 5; }
 
 
 }
+
+img {
+	z-index: 100;
+	position: absolute;	
+	opacity: 0.3;
+	margin-left: 40%;
+	margin-top: 10%;
+}
+
 
 /*body {
   padding: 2em; 
