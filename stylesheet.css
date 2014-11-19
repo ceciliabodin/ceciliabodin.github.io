@@ -6,6 +6,10 @@ p, a, h4 {
   font-family: 'Karla', 'sans-serif';
 }
 
+.project-row h4 {
+	text-align: center;
+}
+
 .wrapper {
   display: -webkit-box;
   display: -moz-box;
@@ -33,7 +37,7 @@ p, a, h4 {
 }
 
 .footer {
-   /* padding-top: 10%;*/
+    padding-top: 50px;
     width: 100%;
 
 }
@@ -41,7 +45,7 @@ p, a, h4 {
 
 .main {
   text-align: left;
-  padding-top: 10%;
+/*  padding-top: 5%;*/
   color: black;
   flex: 1;
 /*  position: relative;*/
@@ -57,6 +61,8 @@ h4 {
 /*	color: #cccccc;*/
 	font-size: 10pt;
 }
+
+
 
 
 .navigation {
@@ -114,7 +120,35 @@ li a:active {
   color: #dd5a5f;
 }
 
+.project {
+	display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
 
+   flex: 1 auto; 
+
+
+	/*z-index: 100;
+	position: absolute;	
+	opacity: 0.3;
+	margin-left: 60%;
+	margin-top: 5%;*/
+}
+
+.project-row {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+.project-row img:hover {
+	opacity: 0.5;
+}
 
 .social {
   list-style: none;
@@ -157,20 +191,15 @@ li a:active {
 @media all and (min-width: 800px) {
   .main    { flex: 3 0px; }
   .navigation { order: 1;}
-  .main    { order: 3; }
+  .main    { order: 2; }
+  .project {order:3;}
   .wrapper-image {order: 4}
   .footer  { order: 5; }
 
 
 }
 
-img {
-	z-index: 100;
-	position: absolute;	
-	opacity: 0.3;
-	margin-left: 60%;
-	margin-top: 5%;
-}
+
 
 
 /*body {
