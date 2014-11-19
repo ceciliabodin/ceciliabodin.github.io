@@ -2,7 +2,7 @@ html {
   background: white;
 }
 
-p, a {
+p, a, h4 {
   font-family: 'Karla', 'sans-serif';
 }
 
@@ -52,6 +52,11 @@ p, a {
 /*    font-family: 'Inconsolata', 'sans-serif';*/
 }
 
+h4 {
+	text-transform: uppercase;
+/*	color: #cccccc;*/
+	font-size: 10pt;
+}
 
 
 .navigation {
