@@ -33,7 +33,10 @@ p, a, h4 {
 }
 
 .header {
-  background: tomato;
+  font-family: 'Inconsolata', 'sans-serif';
+  text-align: center;
+  font-size: 24pt;
+  padding-top: 20px;
 }
 
 .footer {
