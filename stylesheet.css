@@ -2,6 +2,22 @@ html {
   background: white;
 }
 
+.memex-text p {
+  font-family: "Menlo", "Courier", "monospace";
+  margin: 50px 15% auto;"
+  font-size: 10pt;
+}
+
+.memex-text a {
+  color: blue;
+}
+
+div .memex {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 p, a, h4 {
   font-family: 'Karla', 'sans-serif';
 }
@@ -9,6 +25,8 @@ p, a, h4 {
 .project-row h4 {
 	text-align: center;
 }
+
+
 
 .wrapper {
   display: -webkit-box;
