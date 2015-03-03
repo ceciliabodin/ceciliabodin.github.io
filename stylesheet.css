@@ -8,11 +8,17 @@ html {
   font-size: 10pt;
 }
 
+.memex-text h2 {
+ font-family: "Menlo", "Courier", "monospace";
+  margin: 50px 15% auto;"
+  font-size: 20pt;
+}
 .memex-text a {
   color: blue;
 }
 
 div .memex {
+  width: ;
   display: block;
   margin-right: auto;
   margin-left: auto;
