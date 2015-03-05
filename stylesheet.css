@@ -50,6 +50,25 @@ p, a, h1, h2, h3, h4 {
 	text-align: center;
 }
 
+.project4 h4 {
+  border-bottom: 2px solid #f26a67;
+  display: inline;
+}
+
+.project4 p {
+  font-size:12pt; 
+  margin-bottom: 60px;
+}
+
+.project2 h4 {
+  border-bottom: 2px solid #4e66ad;
+  display: inline;
+}
+
+.project2 p {
+  font-size:12pt; 
+  margin-bottom: 60px;
+}
 
 
 .wrapper {
