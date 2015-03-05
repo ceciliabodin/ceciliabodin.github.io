@@ -24,8 +24,26 @@ div .memex {
   margin-left: auto;
 }
 
-p, a, h4 {
+.image img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 700px;
+  height: 350px;
+}
+
+p, a, h1, h2, h3, h4 {
   font-family: 'Karla', 'sans-serif';
+}
+
+.project1 h4 {
+  border-bottom: 2px solid #fabd6d;
+  display: inline;
+}
+
+.project1 p {
+  font-size:12pt; 
+  margin-bottom: 60px;
 }
 
 .project-row h4 {
@@ -175,6 +193,10 @@ li a:active {
 
 .project-row img:hover {
 	opacity: 0.5;
+}
+
+.project:nth-child(2) img:hover {
+  opacity: 0.1;
 }
 
 .social {
