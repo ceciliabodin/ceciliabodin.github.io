@@ -116,7 +116,8 @@ p, a, h1, h2, h3, h4, li {
 }
 
 .main p {
-  font-size: 18pt;
+  font-size: 24pt;
+  line-height: 32pt;
 /*    font-family: 'Inconsolata', 'sans-serif';*/
 }
 
@@ -141,10 +142,12 @@ h4 {
   display: flex;
   
   -webkit-flex-flow: row wrap;
-  justify-content: center;
-
+  /*justify-content: center;*/
 }
 
+.navigation li {
+  
+}
 
 
 a {
@@ -161,9 +164,19 @@ a:visited {
   color: grey;
 }
 
-a:hover {
-  color:#dd5a5f;
+.main a {
+  color: #029D6D;
 }
+
+main a:visited {
+  color: #029D6D;
+}
+
+
+a:hover {
+  color:#029D6D;
+}
+
 
 .navigation li {
   color: grey;
@@ -171,24 +184,22 @@ a:hover {
   padding-top: 1em;
   padding-bottom: 1em;
   padding-right: 3em;
-  padding-left: 3em;
+  font-size: 16px;
+  /*padding-left: 3em;*/
   
 }
 
-.navigation li:nth-child(1) {
+.navigation ul li:nth-child(1) {
   color: red;
 }
 
 
-
-
-
-.main a {
-	color: #dd5a5f;
+.navigation a {
+	color: grey;
 }
 
 li a:active {
-  color: #dd5a5f;
+  color: #029D6D;
 }
 
 .project {
