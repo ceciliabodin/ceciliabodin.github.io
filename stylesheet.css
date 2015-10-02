@@ -251,6 +251,7 @@ li a:active {
 	opacity: 0.5;
 }
 
+
 .work-col h2 {
   color: #333333;
   display: block;
@@ -271,6 +272,10 @@ li a:active {
   font-family: 'Inconsolata', 'sans-serif';
   display: block;
   margin-bottom: -10px;
+}
+
+.receiver-col a {
+  color:#333333;
 }
 
 .receiver-col h4 {
