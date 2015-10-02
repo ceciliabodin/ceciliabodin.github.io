@@ -25,9 +25,7 @@ p, a, h1, h2, h3, h4, li {
   margin-bottom: 60px;
 }
 
-.project-row h4 {
-	text-align: center;
-}
+
 
 .project4 h4 {
   border-bottom: 2px solid #f26a67;
@@ -58,8 +56,8 @@ p, a, h1, h2, h3, h4, li {
   display: flex;  
   min-height: 100vh;
   padding-left: 15%;
-   padding-right: 15%;
-   flex-direction: column;
+  padding-right: 15%;
+  flex-direction: column;
   
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
@@ -106,7 +104,6 @@ p, a, h1, h2, h3, h4, li {
   font-size: 24pt;
   line-height: 32pt;
 
-/*    font-family: 'Inconsolata', 'sans-serif';*/
 }
 .home a {
   border-bottom: 8px solid rgba(2, 157, 109, 0.3);
@@ -114,12 +111,12 @@ p, a, h1, h2, h3, h4, li {
   height: 30px;
 }
 
-
-h4 {
-	text-transform: uppercase;
-/*	color: #cccccc;*/
-	font-size: 10pt;
+.home a:hover {
+  background-color: rgba(2, 157, 109, 0.1);
 }
+
+
+
 
 
 
@@ -167,9 +164,6 @@ a {
 }
 
 
-.home a:hover {
-  color:#029D6D;
-}
 
 
 .navigation li {
@@ -196,6 +190,7 @@ li a:active {
   color: #029D6D;
 }
 
+/*WORK.HTML*/
 .project {
 	display: -webkit-box;
   display: -moz-box;
@@ -204,9 +199,10 @@ li a:active {
   display: flex;
   
   -webkit-flex-flow: row wrap;
-  justify-content: center;
+  justify-content: left;
 
-   flex: 1 auto; 
+   flex: 1 auto;
+   flex-direction: row; 
 
 
 	/*z-index: 100;
@@ -216,19 +212,59 @@ li a:active {
 	margin-top: 5%;*/
 }
 
+.project a:visited {
+  color: #333333;
+}
+
+.project a:hover {
+ background-color: rgba(2, 157, 109, 0.1);
+}
+
 .project-row {
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-top: 20px;
+  float:left;
+  display: inline-block;
+  padding-top: 30px;
+}
+
+.project-col {
+  display: inline-block;
+  float: left;
+}
+
+.project-col:nth-child(2) {
+  padding-left: 50px;
+
 }
 
 .project-row img:hover {
 	opacity: 0.5;
 }
 
-.project:nth-child(2) img:hover {
-  opacity: 0.1;
+.project-col h2 {
+  color: #333333;
+  display: block;
+  margin-top: 0px;
+  margin-bottom: -10px;
 }
+
+.project-col h3 {
+  color: #BBBBBB;
+  font-weight: 500;
+  display: block;
+   margin-bottom: -10px;
+}
+
+.project-col h4 {
+  color: #029D6D;
+  font-size: 10pt;
+  font-family: 'Inconsolata', 'sans-serif';
+  display: block;
+  margin-bottom: -10px;
+}
+
+
+
+/*WORK END*/
 
 .social {
   list-style: none;
@@ -242,7 +278,6 @@ li a:active {
   
   -webkit-flex-flow: row wrap;
   justify-content: center;
-
 
 }
 
