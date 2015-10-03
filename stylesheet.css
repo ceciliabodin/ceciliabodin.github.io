@@ -321,6 +321,11 @@ li a:active {
 	justify-content: center;
 }
 
+.image {
+  width: 100%;
+  display: block;
+}
+
 
 
 @media (max-width: 768px) {
@@ -384,6 +389,17 @@ li a:active {
   display: inline-block;
   width: 66%; 
   float: left;
+}
+
+.receiver-col a {
+  border-bottom: 5px solid rgb(178, 226, 211);
+  display: inline-block;
+  height: 15px;
+}
+
+
+.receiver-col a:hover {
+  background-color: rgb(178, 226, 211);
 }
 
 @media (max-width: 768px) {
