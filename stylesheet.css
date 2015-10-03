@@ -387,8 +387,7 @@ li a:active {
 
 .receiver-col:nth-child(2) {
   display: inline-block;
-  width: 66%; 
-  float: left;
+  width: 66%;
 }
 
 .receiver-col a {
@@ -407,5 +406,13 @@ li a:active {
     clear: left;
     width: 100%;
   }
+  .receiver-col:nth-child(2) {
+  width: 100%; 
+  }
+
+  .project {
+    width:100%;
+  }
+
   }
 
