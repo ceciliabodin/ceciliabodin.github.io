@@ -14,11 +14,17 @@ html,body{ margin:0; padding:0; height:100%; width:100%; }
     background: linear-gradient(#007661, #008ECB); /* Standard syntax */
 }
 
+.text {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
 p {
 	text-align: center;
 	font-family: Helvetica;
 	font-size: 64px;
 	color: white;
+	border-top: 0.5em;
 }
 
 #tukker {
