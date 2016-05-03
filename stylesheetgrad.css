@@ -22,6 +22,7 @@ p {
 }
 
 #tukker {
-	color:black;
-	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
 }
