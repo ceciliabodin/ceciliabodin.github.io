@@ -37,6 +37,10 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	color: #FFBE00;
+}
+
 #tukker {
     color: transparent;
     -webkit-text-stroke-width: 1px;
