@@ -41,8 +41,14 @@ a:hover {
 	color: #FFBE00;
 }
 
-#tukker {
+#tukker, #tukker a {
     color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
 }
+
+#tukker a:hover {
+	color: #FFBE00;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FFBE00;
+	}
