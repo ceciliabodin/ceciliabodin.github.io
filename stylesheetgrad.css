@@ -53,3 +53,9 @@ a:hover {
 	-webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #FFBE00;
 	}
+
+
+	.footer {
+    padding-top: 50px;
+    width: 100%;
+}
