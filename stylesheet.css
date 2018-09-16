@@ -3,6 +3,13 @@
 	src: url(/atto.otf);
 }
 
-p {
+body {
 	font-family: Atto, Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	line-height: 30px;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
 }
