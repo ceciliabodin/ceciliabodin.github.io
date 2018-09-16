@@ -1,10 +1,10 @@
 @font-face {
-	font-family: Atto;
-	src: url("/atto.otf");
+	font-family: "Atto";
+	src: url("/atto.otf") format("truetype");
 }
 
 p {
-	font-family: Atto, Helvetica, Arial, sans-serif;
+	font-family: "Atto", Helvetica, Arial, sans-serif;
 	font-size: 22px;
 	line-height: 30px;
 }
