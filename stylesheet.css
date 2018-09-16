@@ -1,6 +1,6 @@
 @font-face {
 	font-family: Atto;
-	src: url(/atto.otf);
+	src: url("/atto.otf");
 }
 
 p {
