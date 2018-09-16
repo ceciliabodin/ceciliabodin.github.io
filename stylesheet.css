@@ -3,7 +3,7 @@
 	src: url(/atto.otf);
 }
 
-body {
+p {
 	font-family: Atto, Helvetica, Arial, sans-serif;
 	font-size: 22px;
 	line-height: 30px;
