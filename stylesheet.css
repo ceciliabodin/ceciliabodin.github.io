@@ -1,6 +1,12 @@
 @font-face {
 	font-family: "Atto";
-	src: url("/atto.otf") format("truetype");
+	/*src: url("/fonts/atto.otf") format("truetype");*/
+	src: url('atto-webfont.eot'); /* IE9 Compat Modes */
+  	src: url('atto-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('atto-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('atto-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('atto.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('atto-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 p {
