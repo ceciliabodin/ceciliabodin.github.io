@@ -52,15 +52,33 @@ header {
 	gap: 2rem;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-auto-rows: auto;
+
 }
 
 .thumbnail {
-	height: 240px;
-	border-radius: 4px;
-	background-color: red;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
 
 }
 
+.image {
+	background-color: #D9F1EF;
+	height: 240px;
+	width: 1fr;
+	border-radius: 4px;
+}
+
+.subtitle {
+	/* background-color: white; */
+	padding-top: 1rem;
+}
+
+
+
+
+
+/* media queries */
 
 @media (max-width: 992px) {
 	.container {
