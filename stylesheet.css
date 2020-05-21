@@ -124,7 +124,7 @@ footer a:not(:first-child) {
 	padding-top: 1rem;
 }
 
-a, .subtitle {
+.thumbnail-and-subtitle a:link {
 	text-decoration: none;
 }
 
@@ -136,28 +136,7 @@ a, .subtitle {
 
 
 
-
-
 /* media queries */
-
-/* @media (max-width: 992px) {
-	.container {
-		grid-template-columns: 1fr 1fr;
-		grid-template-areas:
-		"header header"
-		"bio bio"
-		"thumbnail-container thumbnail-container"
-		"footer footer";
-	}
-	.thumbnail-container {
-		grid-template-columns: 1fr 1fr;
-	}
-
-	footer {
-		margin-bottom: 2rem;
-	}
-
-} */
 
 @media (max-width: 992px) {
 	.container {
@@ -171,11 +150,6 @@ a, .subtitle {
 	.thumbnail-container {
 		grid-template-columns: 1fr;
 	}
-
-	footer {
-		margin-bottom: 2rem;
-	}
-
 
 }
 
